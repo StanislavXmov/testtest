@@ -1,0 +1,22 @@
+@import '~normalize.css';
+
+@import 'variables';
+@import 'card';
+@import 'cards';
+
+@font-face {
+    font-family: 'Exo2.0';
+    src : url('../fonts/Exo2.0-Thin.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/background.png');
+  font-family: 'Exo2.0';
+}
+
